@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=   , initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet"  href="/styles.css">
+    <title>Personal Portfolio</title>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("hCL5WJpNyGL0ig76Z");
+        })();
+    </script>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Aryan Barapatre</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Aryan Barapatre</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Web Developer and UI/UX Designer, transforming ideas into functional websites.</p>
+            <p>Let's code your vision into immersive digital realms.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="images/Aryan_Barapatre_CV.pdf" class="btn" download="Aryan_Barapatre_CV">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home-img.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>Hello! I'm an enthusiastic frontend developer who loves creating visually stunning and seamlessly interactive digital experiences. With expertise in the MERN stack and other technologies like Next js and Three js, I confidently navigate the realms of both back-end and front-end development. I specialize in UI/UX design, translating ideas into digital journeys. I excel at crafting elegant user interfaces and ensuring optimal user experiences. Let's collaborate to bring your digital vision to life, one pixel at a time.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>Elevate your digital presence! My web development expertise combines innovation and skill to create dynamic and user-centric websites, ensuring your online space is as unique as your brand in the digital realm.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Graphic Design</h3>
+                <p>Transform your brand with captivating visuals! My graphic design expertise brings creativity and precision together, crafting eye-catching logos and stunning marketing collateral to make your brand stand out in the digital landscape.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-block' ></i>
+                <h3>UI/UX Design</h3>
+                <p>Elevate user experiences with captivating design! My UI/UX expertise blends creativity and precision, crafting intuitive and visually appealing digital interfaces to ensure your brand stands out and engages seamlessly in the online landscape.</p>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Screenshot (112).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Funrobics Fithealth</h4>
+                    <p>Designed and developed a responsive website for Funrobics, a fitness company.</p>
+                    <a target="_blank" href="https://funrobics.in/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Screenshot (117).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Bettle Beats</h4>
+                    <p>Developed Bettle-Beats, a music streaming platform, where users can upload their own song.</p>
+                    <a target="_blank" href="https://bettle-beats.vercel.app/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Screenshot (114).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>3D Portfolio</h4>
+                    <p>Made a visually stunning 3D personal portfolio website with Three js.</p>
+                    <a target="_blank" href="https://aryanbarapatre.github.io/aryan2portfolio/"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Screenshot (115).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Obstacle Avoiding Robot</h4>
+                    <p>Made a Arduino based obstacle avoiding robot, which changes direction when encounters a obstacle.</p>
+                    <a target="_blank" href="https://drive.google.com/file/d/1YadQZe6qZZ9oDbhwa8EbxOTj7Pm72dEf/view?usp=sharing"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Screenshot (116).png" alt="">
+                <div class="portfolio-layer">
+                    <h4>AMG Projects</h4>
+                    <p>Currently developing a custom website for a construction called AMG Projects.</p>
+                    <a target="_blank" href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Coming Soon..</h4>
+                    <p>More stunning projects coming soon..</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" id="fullname" placeholder="Full Name">
+                <input type="email" id="email_id" placeholder="Email Adress">
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="phone_no" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="btn" onclick="SendMail()">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Aryan Barapatre | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-icon-Top">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
