@@ -79,7 +79,7 @@ section {
 }
 
 .home-img img {
-    width: 27vw;
+    width: 26vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -163,8 +163,8 @@ span {
 
 .btn1 {
     display: inline-block;
-    box-shadow: 0 0 1.7rem var(--main-color);
-    border-radius: 8rem;
+    box-shadow: 0 0 1.9rem var(--main-color);
+    border-radius: 24rem;
 }    
 
 .about {
@@ -178,6 +178,7 @@ span {
 .about-img img {
     width: 27vw;
     border-radius: 24rem;
+    box-shadow: 0 0 1.7rem var(--main-color);
 }
 
 .heading {
