@@ -163,7 +163,7 @@ span {
 
 .btn1 {
     display: inline-block;
-    box-shadow: 0 0 2.8rem var(--main-color);
+    box-shadow: 0 0 5rem var(--main-color);
     border-radius: 7rem;
     transition: .5s ease;
 }    
