@@ -159,13 +159,12 @@ span {
 
 .btn:hover {
     box-shadow: none;
-    box-shadow: 0 0 1.7rem var(--main-color);
-    width: 4rem;
 }
 
 .btn1 {
     display: inline-block;
-    
+    box-shadow: 0 0 1.7rem var(--main-color);
+    width: 16rem;
 }    
 
 .about {
