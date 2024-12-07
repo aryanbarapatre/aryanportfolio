@@ -164,8 +164,13 @@ span {
 .btn1 {
     display: inline-block;
     box-shadow: 0 0 2.4rem var(--main-color);
-    border-radius: 6rem;
+    border-radius: 8rem;
+    transition: .5s ease;
 }    
+
+.btn1:hover {
+    box-shadow: none;
+}
 
 .about {
     display: flex;
@@ -178,7 +183,7 @@ span {
 .about-img img {
     width: 27vw;
     border-radius: 24rem;
-    box-shadow: 0 0 1.7rem var(--main-color);
+    box-shadow: 0 0 1.7rem var(--bg-color);
 }
 
 .heading {
