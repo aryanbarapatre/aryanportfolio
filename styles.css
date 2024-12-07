@@ -183,7 +183,7 @@ span {
 .about-img img {
     width: 27vw;
     border-radius: 24rem;
-    box-shadow: 0 0 1.7rem var(--bg-color);
+    box-shadow: 0 0 2.4rem var(--bg-color);
 }
 
 .heading {
