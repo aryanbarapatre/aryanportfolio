@@ -163,8 +163,8 @@ span {
 
 .btn1 {
     display: inline-block;
-    box-shadow: 0 0 2.4rem var(--main-color);
-    border-radius: 8rem;
+    box-shadow: 0 0 3.2rem var(--main-color);
+    border-radius: 6rem;
     transition: .5s ease;
 }    
 
@@ -183,7 +183,7 @@ span {
 .about-img img {
     width: 27vw;
     border-radius: 24rem;
-    box-shadow: 0 0 2.4rem var(--bg-color);
+    box-shadow: 0 0 3.2rem var(--bg-color);
 }
 
 .heading {
