@@ -164,7 +164,8 @@ span {
 .btn1 {
     display: inline-block;
     box-shadow: 0 0 1.7rem var(--main-color);
-    width: 16rem;
+    width: 4rem;
+    border-radius: 4rem;
 }    
 
 .about {
